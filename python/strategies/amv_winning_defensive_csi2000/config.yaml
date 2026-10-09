@@ -1,0 +1,7 @@
+paths:
+  amv_csv: data/backtest_data/0AMV-260612.csv
+  primary_csv: data/backtest_data/ETF_60min_2005_2025/563300.SH.csv
+  baseline_primary_csv: data/backtest_data/ETF_60min_2005_2025/512100.SH.csv
+  stock_5m_dir: data/backtest_data/5m_price
+  stock_dividends_csv: python/strategies/amv_winning_defensive/dividends_601288.csv
+initial_cash: 200000

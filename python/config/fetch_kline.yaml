@@ -1,0 +1,17 @@
+data_source: tencent
+start: '20251001'
+end: today
+stocklist: ./pipeline/import.txt
+exclude_boards: []
+out: ./data/raw
+workers: 8
+tencent:
+  rate_limit_delay: 0.5
+  max_retries: 3
+tushare:
+  # 在此填写你自己的 Tushare Pro token，切勿提交真实值
+  token: ""
+
+# 中国A股休市日（YYYY-MM-DD格式）。用于跳过非交易日执行。
+# 留空则使用硬编码的节假日列表。每年更新。
+trading_holidays: []

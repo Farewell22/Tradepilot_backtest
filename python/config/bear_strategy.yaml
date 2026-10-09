@@ -1,0 +1,24 @@
+# 熊市策略配置
+# 熊市选股参数
+bear_filter:
+  min_volume_ratio: 1.5
+  weekly_kdj_j_max: 13
+
+# 熊市评分权重
+bear_weights:
+  weekly_trend: 0.35
+  daily_position: 0.20
+  kdj_resonance: 0.20
+  monthly_kdj_bonus: 0.10
+  volume_behavior: 0.10
+  n_structure: 0.05
+
+# 熊市止盈止损
+bear_exit:
+  take_profit_pct: 5.0
+  stop_loss_pct: 2.0
+
+# 熊市门槛
+bear_thresholds:
+  pass: 82
+  watch: 82

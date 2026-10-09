@@ -1,0 +1,10 @@
+code,kind,record_date,ex_date,pay_date,price_effective_date,cash_per_share,share_ratio,source_url
+510050.SH,dividend,2019-11-29,2019-12-02,2019-12-05,2019-12-02,0.047,1,https://www.sse.com.cn/disclosure/announcement/general/c/c_20191129_4956915.shtml
+510050.SH,dividend,2020-11-27,2020-11-30,2020-12-03,2020-11-30,0.051,1,https://www.sse.com.cn/disclosure/fund/announcement/c/2020-11-11/510050_20201111_1.pdf
+510050.SH,dividend,2021-11-26,2021-11-29,2021-12-02,2021-11-29,0.041,1,https://www.sse.com.cn/assortment/options/disclo/update/c/c_20211122_5640815.shtml
+510050.SH,dividend,2022-11-30,2022-12-01,2022-12-06,2022-12-01,0.037,1,https://www.sse.com.cn/assortment/options/disclo/update/c/c_20221130_5713154.shtml
+510050.SH,dividend,2023-11-24,2023-11-27,2023-11-30,2023-11-27,0.039,1,https://www.sse.com.cn/disclosure/fund/announcement/c/new/2023-11-20/510050_20231120_P91K.pdf
+510050.SH,dividend,2024-11-29,2024-12-02,2024-12-05,2024-12-02,0.055,1,https://www.sse.com.cn/disclosure/fund/announcement/c/new/2024-11-25/510050_20241125_J74G.pdf
+510050.SH,dividend,2025-12-16,2025-12-17,2025-12-22,2025-12-17,0.08,1,https://www.chinaamc.com/upload/resources/file/2025/12/09/442028.pdf
+512100.SH,consolidation,2022-09-01,2022-09-02,,2022-09-05,0,0.36555,https://www.sse.com.cn/disclosure/fund/announcement/c/new/2022-08-26/512100_20220826_1_DvbMgABI.pdf
+512100.SH,dividend,2025-01-14,2025-01-15,2025-01-20,2025-01-15,0.037,1,https://www.sse.com.cn/disclosure/fund/announcement/c/new/2025-01-10/512100_20250110_TKLR.pdf

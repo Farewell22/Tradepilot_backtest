@@ -1,0 +1,15 @@
+sample:
+  start_date: "20150101"
+  end_date: "20260612"
+paths:
+  amv_csv: data/backtest_data/0AMV-260612.csv
+  market_data_root: data/backtest_data/5m_price
+  index_cache_root: data/factor_research_data/indices
+  output_root: data/factor_research_runs
+factors:
+  ma_windows: [5, 10, 20, 60]
+  return_windows: [1, 3, 5, 10]
+evaluation:
+  horizons: [1, 3, 5, 10]
+  groups: 5
+indices: [sh000001, sz399001]

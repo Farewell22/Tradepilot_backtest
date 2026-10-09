@@ -1,0 +1,41 @@
+document_id: policy_f924d66c35df38f1
+title: 中共中央关于制定国民经济和社会发展第十五个五年规划的建议
+cycle: 十五五
+document_stage: 建议
+source_url: https://www.mee.gov.cn/ywdt/szyw/202510/t20251028_1130924.shtml
+fetched_url: https://www.mee.gov.cn/ywdt/szyw/202510/t20251028_1130924.shtml
+fetched_at: '2026-09-30T06:43:11.158654+00:00'
+published_at: '2025-10-28'
+raw_sha256: c184779d2c357b71622f28423cc1854887688b4e0147b84b33ba12ed243ed0c9
+raw_file: raw/c184779d2c357b71622f28423cc1854887688b4e0147b84b33ba12ed243ed0c9.html
+body_file: c184779d2c357b71622f28423cc1854887688b4e0147b84b33ba12ed243ed0c9.txt
+extraction_status: extracted
+clauses:
+- section: （8）培育壮大新兴产业和未来产业
+  quote: 加快新能源、新材料、航空航天、低空经济等战略性新兴产业集群发展。
+  first_public_at: '2025-10-28'
+  first_public_url: https://www.mee.gov.cn/ywdt/szyw/202510/t20251028_1130924.shtml
+  theme_id: low_altitude_economy
+  industry_id: emerging_low_altitude
+  policy_action: 加快产业集群发展
+  support_type: directional
+  change_vs_previous: unknown
+  relation: direct
+  mapping_reason: 条款直接提及低空经济；尚未核对更早公开表述、企业业务和事件时点 ETF 历史成分。
+  review_status: approved
+  etf_status: ETF_EXPOSURE_UNVERIFIED
+  etf_links: []
+- section: （14）深入推进数字中国建设
+  quote: 全面实施“人工智能+”行动，以人工智能引领科研范式变革，加强人工智能同产业发展、文化建设、民生保障、社会治理相结合
+  first_public_at: '2025-10-28'
+  first_public_url: https://www.mee.gov.cn/ywdt/szyw/202510/t20251028_1130924.shtml
+  theme_id: ai_application
+  industry_id: emerging_ai
+  policy_action: 全面实施人工智能+行动
+  support_type: directional
+  change_vs_previous: unknown
+  relation: direct
+  mapping_reason: 条款直接提及人工智能应用；十四五建议已含产业融合表述，新增性及事件时点 ETF 历史暴露尚未核验。
+  review_status: approved
+  etf_status: ETF_EXPOSURE_UNVERIFIED
+  etf_links: []

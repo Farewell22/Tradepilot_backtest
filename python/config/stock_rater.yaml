@@ -1,0 +1,45 @@
+# stock_rater.py 评分配置
+# 五维度权重（总和需为1.0）
+weights:
+  trend: 0.15       # 趋势结构
+  position: 0.15    # 价格位置
+  volume: 0.25      # 量价行为
+  abnormal: 0.25    # 前期建仓异动
+  risk_reward: 0.20 # 盈亏比
+
+# 判定阈值
+thresholds:
+  pass: 75
+  watch: 70
+
+# 强制FAIL条件
+force_fail:
+  volume_below: 40    # 量价行为<40分强制FAIL
+  abnormal_below: 30  # 前期异动<30分强制FAIL
+
+# 信号识别参数
+signal:
+  b2_min_change_pct: 4.0    # B2启动最小涨幅%
+  b2_min_vol_ratio: 1.5     # B2启动最小量比
+  b1_max_vol_ratio: 0.8     # B1缩量判定量比上限
+  b1_max_position: 65       # B1最大位置%
+  abnormal_vol_threshold: 2.0  # 异常放量判定（倍数)
+
+# 红肥绿瘦 + 防S1 过滤器
+timing:
+  volume_pattern_enabled: false
+  volume_pattern_window: 50
+  volume_pattern_threshold: 0.9
+  anti_s1_enabled: false
+  anti_s1_window: 35
+
+# 过度上涨后第一次回调过滤器（假B1剔除）
+excessive_runaway:
+  enabled: true
+  lookback_days: 120           # 回溯天数
+  consecutive_days: 4          # 连续大涨天数阈值（≥此值触发）
+  daily_gain_pct: 7.0          # 单日大涨阈值%（近似涨停）
+  short_term_rise_pct: 50.0    # 短期急涨阈值%
+  short_term_window: 20        # 短期窗口（天）
+  extreme_rise_pct: 150.0      # 极端涨幅阈值%，超过直接触发
+  min_bounce_pct: 15.0         # 有效反弹最小涨幅%

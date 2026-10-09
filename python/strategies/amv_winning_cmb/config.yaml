@@ -1,0 +1,9 @@
+paths:
+  amv_csv: data/backtest_data/0AMV-260612.csv
+  primary_csv: data/backtest_data/ETF_60min_2005_2025/512100.SH.csv
+  stock_5m_dir: data/backtest_data/5m_price
+  stock_dividends_csv: python/strategies/amv_winning_cmb/dividends_600036.csv
+initial_cash: 200000
+bank_fees:
+  stamp_duty_rate: 0.001
+  transfer_fee_rate: 0.00001

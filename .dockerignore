@@ -1,0 +1,46 @@
+# Git
+.git
+.gitignore
+
+# 文档
+describe/
+docs/
+ref/
+README.md
+CLAUDE.md
+
+# Docker 文件本身
+docker-compose.yml
+docker-compose.dev.yml
+docker-compose.prod.yml
+Dockerfile
+docker-compose.override.yml
+.env
+.env.*
+
+# 临时文件
+*.tmp
+*.log
+*.swp
+
+# IDE
+.idea/
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+
+# Go
+bin/
+*.exe
+*.test
+
+# 本地配置覆盖
+configs/config.local.yaml

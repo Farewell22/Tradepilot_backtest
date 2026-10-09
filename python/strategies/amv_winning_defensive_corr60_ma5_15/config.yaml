@@ -1,0 +1,19 @@
+initial_cash: 200000
+window: 60
+jump_threshold: 0.25
+pool_cutoff: '20251231'
+paths:
+  amv_csv: data/backtest_data/0AMV-260612.csv
+  etf_dir: data/backtest_data/ETF_60min_2005_2025
+  primary_csv: data/backtest_data/ETF_60min_2005_2025/512100.SH.csv
+  defensive_etf_csv: data/backtest_data/ETF_60min_2005_2025/512890.SH.csv
+  stock_5m_dir: data/backtest_data/5m_price
+  stock_dividends_csv: python/strategies/amv_winning_defensive/dividends_601288.csv
+weak_exit:
+  max_hold_sessions: 3
+  tiers:
+    - {upper: 0.015, stop: 0.01, profit: 0.015}
+    - {upper: 0.03, stop: 0.0125, profit: 0.02}
+    - {upper: null, stop: 0.015, profit: 0.025}
+weak_entry:
+  minimum_day_return: 0.015

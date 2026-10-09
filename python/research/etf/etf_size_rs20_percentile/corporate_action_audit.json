@@ -1,0 +1,45 @@
+{
+  "coverage_start": "2019-01-01",
+  "coverage_end": "2025-12-31",
+  "verified_on": "2026-09-29",
+  "price_basis": "Unadjusted exchange quotes; ex-close total-return reinvestment and share consolidation applied explicitly.",
+  "cash_unit": "CNY per one pre-event share; announcement amounts per ten shares divided by ten.",
+  "history_scope_note": "2019 supplies more than the required 119 pre-2020 sessions. Normalization at the first 2019 close leaves all study returns unchanged. Requests before the audited warmup cannot silently use unaudited events.",
+  "funds": {
+    "510050.SH": {
+      "dividend_events": 7,
+      "consolidation_events": 0,
+      "evidence": "Issuer historical distribution table supplies complete record dates, per-share amounts and payment dates for 2019-2025. Exchange option adjustment notices verify the 2019, 2021 and 2022 ex-dates; issuer distribution notices hosted by the exchange verify 2020, 2023 and 2024; issuer 2025 notice verifies record/ex/payment dates and CNY 0.08 per share. No share split or consolidation in the audited period.",
+      "sources": [
+        "https://www.chinaamc.com/product/fundLishifenhong.do?fundcode=510050",
+        "https://www.sse.com.cn/disclosure/announcement/general/c/c_20191129_4956915.shtml",
+        "https://www.sse.com.cn/disclosure/fund/announcement/c/2020-11-11/510050_20201111_1.pdf",
+        "https://www.sse.com.cn/assortment/options/disclo/update/c/c_20211122_5640815.shtml",
+        "https://www.sse.com.cn/assortment/options/disclo/update/c/c_20221130_5713154.shtml",
+        "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2023-11-20/510050_20231120_P91K.pdf",
+        "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2024-11-25/510050_20241125_J74G.pdf",
+        "https://www.chinaamc.com/upload/resources/file/2025/12/09/442028.pdf"
+      ]
+    },
+    "512100.SH": {
+      "dividend_events": 1,
+      "consolidation_events": 1,
+      "evidence": "Issuer historical records show a single ex-date distribution in the audited interval: record 2025-01-14, ex 2025-01-15, pay 2025-01-20, CNY 0.037 per share. The distribution attributed to the 2025 fiscal year has ex-date in January 2026 and is excluded. Issuer consolidation notice verifies record 2022-09-01, legal consolidation date 2022-09-02, new-to-old share ratio 0.36555, and suspension/resumption arrangements. Raw September 2 bars have zero volume and stale pre-consolidation prices; September 5 is the first new-unit quote. The known suspension is removed from BOTH calendars before applying the quote-boundary adjustment.",
+      "legal_consolidation_date": "2022-09-02",
+      "raw_quote_effective_date": "2022-09-05",
+      "new_shares_per_old_share": 0.36555,
+      "raw_boundary": {"2022-09-01_close": 0.982, "2022-09-02_close": 0.982, "2022-09-02_volume": 0, "2022-09-05_close": 2.713},
+      "sources": [
+        "https://www.nffund.com/new/personal-financing/detail.html?fundCode=512100",
+        "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2022-08-26/512100_20220826_1_DvbMgABI.pdf",
+        "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2025-01-10/512100_20250110_TKLR.pdf",
+        "https://www.nffund.com/main/files/2026/01/13/905793944323.pdf"
+      ]
+    }
+  },
+  "modeling_assumptions": [
+    "Fractional units retained; ignore account-level rounding up on consolidation.",
+    "Cash reinvested at the ex-date close, ignoring actual payment delay; this is a statistical total-return index, not a trading account.",
+    "Unknown calendar mismatches, incomplete intraday bars, and unknown zero-volume sessions fail validation. Common missing dates in both vendor files cannot be detected without an independent exchange calendar."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "coverage_start": "2022-05-16",
+  "coverage_end": "2025-12-31",
+  "verified_on": "2026-09-28",
+  "price_basis": "Unadjusted exchange prices; cash distributions and splits booked explicitly.",
+  "amount_unit": "CNY per one ETF share, not per ten shares",
+  "funds": {
+    "512800.SH": {
+      "dividend_events": 0,
+      "split_events": 1,
+      "evidence": "2023 annual report section 3.3 states no distributions in the preceding three years; 2025 report section 3.3 likewise covers 2023–2025. 2025-07-04 record / 2025-07-07 effective split 1:2.",
+      "sources": ["https://static.cninfo.com.cn/finalpage/2024-03-29/1219454067.PDF", "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-31/512800_20260331_88RL.pdf", "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2025-07-07/512800_20250707_PJ9L.pdf"]
+    },
+    "561560.SH": {
+      "dividend_events": 0,
+      "split_events": 0,
+      "evidence": "2023 annual report section 3.3 states no distributions since inception; 2025 annual report section 3.3 states no distributions during the preceding three years. Fund-history records independently show zero distributions and zero splits.",
+      "sources": ["https://pdf.dfcfw.com/pdf/H2_AN202403291629062999_1.pdf", "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-31/561560_20260331_8W1D.pdf", "https://fund.eastmoney.com/561560.html"]
+    },
+    "512890.SH": {
+      "dividend_events": 0,
+      "split_events": 0,
+      "evidence": "2024 annual report section 3.3 states no distributions since inception; 2025 annual report section 3.3 states no distributions in 2023–2025. Its 2021 split predates this verified interval and is already reflected in opening prices.",
+      "sources": ["https://www.sse.com.cn/disclosure/fund/announcement/c/new/2025-03-31/512890_20250331_101D.pdf", "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-03-31/512890_20260331_5BME.pdf"]
+    },
+    "515220.SH": {
+      "dividend_events": 4,
+      "split_events": 1,
+      "evidence": "One annual distribution in each of 2022–2025: CNY 0.040, 0.050, 0.045 and 0.040 per share. 2022 and 2025 annual reports verify amounts, 2023/2024 distribution notices verify record/ex/payment dates. The 2025 report section 7.4.11 verifies record 2025-12-23 and ex 2025-12-24; payment 2025-12-29 is cross-checked against fund-history records. The 2022 payment dates are also cross-checked against fund-history records. Split record 2024-04-11 / effective 2024-04-12, 1:2.",
+      "sources": ["https://www.sse.com.cn/disclosure/fund/announcement/c/new/2023-03-30/515220_20230330_XWGO.pdf", "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2023-12-26/515220_20231226_XFT5.pdf", "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2024-12-19/515220_20241219_H6AW.pdf", "https://pdf.dfcfw.com/pdf/H2_AN202603291820839907_1.pdf", "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2024-04-12/515220_20240412_5CZN.pdf", "https://fundf10.eastmoney.com/fhsp_515220.html", "https://quote.cfi.cn/jjsyfp/101779/515220.html"]
+    },
+    "510300.SH": {
+      "dividend_events": 3,
+      "split_events": 0,
+      "evidence": "2023-01-13/16/19 at CNY 0.064; 2024-01-17/18/23 at CNY 0.069; 2025-06-17/18/27 at CNY 0.088 (record/ex/payment). 2024 distribution is verified against the fund interim report and broker distribution notice. No 2025 January distribution. The distribution whose income reference date is 2025-12-31 has record date 2026-01-16 and is outside this backtest.",
+      "sources": ["https://www.sse.com.cn/disclosure/fund/announcement/c/new/2023-01-09/510300_20230109_0ED5.pdf", "https://pdf.dfcfw.com/pdf/H2_AN202408301639638994_1.pdf", "https://3g.zszq.com/about/notice?id=FHeP2sOG", "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2025-06-11/510300_20250611_ZAU4.pdf", "https://www.sse.com.cn/disclosure/fund/announcement/c/new/2026-01-12/510300_20260112_VTCZ.pdf", "https://fundf10.eastmoney.com/fhsp_510300.html"]
+    }
+  }
+}

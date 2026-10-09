@@ -1,0 +1,27 @@
+document_id: policy_1cb1f9d4ff1dae5f
+title: 中共中央关于制定国民经济和社会发展第十四个五年规划和二〇三五年远景目标的建议
+cycle: 十四五
+document_stage: 建议
+source_url: https://www.mee.gov.cn/zcwj/zyygwj/202011/t20201103_806153.shtml
+fetched_url: https://www.mee.gov.cn/zcwj/zyygwj/202011/t20201103_806153.shtml
+fetched_at: '2026-09-30T07:09:25.947786+00:00'
+published_at: '2020-11-03'
+raw_sha256: 6311e6084318d077df271e9349f438ad410b0d0237c4c27015898e122f90d42c
+raw_file: raw/6311e6084318d077df271e9349f438ad410b0d0237c4c27015898e122f90d42c.html
+body_file: 6311e6084318d077df271e9349f438ad410b0d0237c4c27015898e122f90d42c.txt
+extraction_status: extracted
+clauses:
+- section: 12.发展战略性新兴产业
+  quote: 推动互联网、大数据、人工智能等同各产业深度融合
+  first_public_at: '2020-11-03'
+  first_public_url: https://www.mee.gov.cn/zcwj/zyygwj/202011/t20201103_806153.shtml
+  theme_id: ai_application
+  industry_id: emerging_ai
+  policy_action: 推动产业融合
+  support_type: directional
+  change_vs_previous: unknown
+  relation: direct
+  mapping_reason: 条款直接提及人工智能与产业融合；对照更早政策及 ETF 历史暴露尚未完成。
+  review_status: approved
+  etf_status: ETF_EXPOSURE_UNVERIFIED
+  etf_links: []

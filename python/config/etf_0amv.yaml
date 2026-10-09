@@ -1,0 +1,30 @@
+symbol: 510300
+
+paths:
+  amv_csv: data/backtest_data/0AMV-260612.csv
+  etf_csv: data/backtest_data/510300.SH.csv
+  output_root: data/backtest_runs/etf_510300_0amv
+
+sample:
+  train:
+    start_date: "20150101"
+    end_date: "20231231"
+  oos:
+    start_date: "20240101"
+    end_date: "20251231"
+
+strategy:
+  initial_cash: 200000
+  enabled_signals: [best, secondary, worst]
+  best_weight: 1.0
+  secondary_weight: 0.5
+  worst_weight: 0.25
+  best_profit_trail_threshold: 0.08
+  secondary_profit_trail_threshold: 0.08
+  worst_profit_trail_threshold: 0.05
+  best_stop_loss: 0.05
+  best_max_hold_days: 60
+  secondary_stop_loss: 0.05
+  secondary_max_hold_days: 60
+  worst_stop_loss: 0.03
+  worst_max_hold_days: 60

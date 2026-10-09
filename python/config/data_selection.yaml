@@ -1,0 +1,31 @@
+# K 线数据选择策略配置
+data_strategy:
+  # 场景定义
+  scenarios:
+    # 盘中实时监控（9:30-15:00）
+    intraday_monitoring:
+      use_minute_data: true
+      frequency: "15m"      # 15 分钟 K 线
+      fallback_to_daily: true
+      cache_ttl: 60         # 缓存 60 秒
+
+    # 盘后复盘（15:00 - 次日 8:00）
+    after_hours_review:
+      use_minute_data: false
+      use_daily_close: true
+      cache_ttl: 300        # 缓存 5 分钟
+
+    # 早盘开盘前（8:00 - 9:25）
+    pre_market:
+      use_minute_data: false
+      use_yesterday_close: true
+      cache_ttl: 600        # 缓存 10 分钟
+
+    # 批量评分（随时）
+    batch_scoring:
+      use_daily: true
+      allow_realtime_update: false  # 评分时不用实时价
+      cache_ttl: 3600       # 缓存 1 小时
+
+  # 自动场景检测
+  auto_detect: true

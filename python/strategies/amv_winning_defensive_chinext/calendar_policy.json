@@ -1,0 +1,19 @@
+{
+  "policy": "common_tradable_sessions_excluding_verified_suspensions",
+  "drop_zero_volume_intraday_bars": true,
+  "suspensions": [
+    {
+      "code": "159915.SZ",
+      "date": "2021-02-08",
+      "reason": "持有人大会计票日全天停牌；2021-02-09 10:30复牌",
+      "source": "https://pdf.dfcfw.com/pdf/H2_AN202102081459963456_1.pdf",
+      "resumption_source": "https://www.cindasc.com/osoa/views/a/20210209/42396.html"
+    },
+    {
+      "code": "512100.SH",
+      "date": "2022-09-02",
+      "reason": "份额合并日全天停牌，比例0.36555；2022-09-05复牌使用新份额报价",
+      "source": "https://static.cninfo.com.cn/finalpage/2022-09-01/1214507899.PDF"
+    }
+  ]
+}
